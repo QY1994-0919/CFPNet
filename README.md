@@ -16,7 +16,7 @@ on the Convolutional Neural Network (CNN) as the backbone followed with a two-st
 
 ## Qualitative results of object detection
 
-![Qualitative results](https://github.com/QY1994-0919/CFP-master/assets/results.png)<br>
+![Qualitative results](https://https://github.com/QY1994-0919/CFPNet/blob/main/assets/overall.png)<br>
 
 # Benchmark<br>
 ---------
