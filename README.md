@@ -12,7 +12,7 @@ on the Convolutional Neural Network (CNN) as the backbone followed with a two-st
 
 ## The overall architecture of CFP
 
-![An illustration of the overall architecture](https://github.com/QY1994-0919/CFP-master/assets/overall.png)<br>
+![An illustration of the overall architecture](https://github.com/QY1994-0919/CFP-master/blob/e7fa355ea13e42430ceb98d5e4b29d1f1eff05cc/assets/overall.png)<br>
 
 ## Qualitative results of object detection
 
