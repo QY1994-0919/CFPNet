@@ -58,8 +58,7 @@ Visual feature pyramid has shown its superiority in both effectiveness and effic
  Thanks [YOLOv5](https://github.com/ultralytics/yolov5) and [YOLOX](https://arxiv.org/abs/2107.08430) teams for the wonderful open source project!
 
 # Bibtex
-If you find this work is useful for your research, please cite our paper using the following BibTeX[[pdf](https://github.com/QY1994-0919/CFPNet.git)]<br>
-[[arxiv](https://arxiv.org/abs/2210.02093)]:<br>
+If you find this work is useful for your research, please cite our paper using the following BibTeX[[pdf](https://github.com/QY1994-0919/CFPNet.git)][[arxiv](https://arxiv.org/abs/2210.02093)]:<br>
 
 
       @article{quan2022centralized,
