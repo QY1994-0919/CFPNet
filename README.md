@@ -59,7 +59,7 @@ Visual feature pyramid has shown its superiority in both effectiveness and effic
 
 # Bibtex
 If you find this work is useful for your research, please cite our paper using the following BibTeX[[pdf](https://github.com/QY1994-0919/CFPNet.git)]<br>
-[[supp](https://arxiv.org/abs/2210.02093)] [[arxiv](https://arxiv.org/abs/2210.02093)]:<br>
+[[arxiv](https://arxiv.org/abs/2210.02093)]:<br>
 
 
       @article{quan2022centralized,
