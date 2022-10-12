@@ -49,7 +49,7 @@ In this paper, we propose a Centralized Feature Pyramid (CFP) for object detecti
 
 # Citation
 If you find this work is useful for your research, please cite our paper using the following BibTeX[pdf]<br>
-[![supp](https://arxiv.org/abs/2210.02093)] [![arxiv](https://arxiv.org/abs/2210.02093)]:<br>
+[[supp](https://arxiv.org/abs/2210.02093)] [[arxiv](https://arxiv.org/abs/2210.02093)]:<br>
 
 
       @article{SimFormer2022,<br> 
