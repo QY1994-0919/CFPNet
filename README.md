@@ -47,7 +47,7 @@ In this paper, we propose a Centralized Feature Pyramid (CFP) for object detecti
 # Acknowledgement<br>
  Thanks YOLOX team for the wonderful open source project!
 
-# Citation
+# Bibtex
 If you find this work is useful for your research, please cite our paper using the following BibTeX[[pdf](https://github.com/QY1994-0919/CFPNet.git)]<br>
 [[supp](https://arxiv.org/abs/2210.02093)] [[arxiv](https://arxiv.org/abs/2210.02093)]:<br>
 
