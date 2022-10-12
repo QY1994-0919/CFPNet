@@ -2,7 +2,7 @@
 
 This repository contains the official PyTorch implementation of the following paper: 
 
-## Centralized Feature Pyramid for Object Detection  
+### Centralized Feature Pyramid for Object Detection  
 
 Yu Quan,  Dong Zhang, Liyan Zhang and Jinhui Tang  
 Computer Science and Engineering, Nanjing University of Science and Technology   
