@@ -2,9 +2,10 @@
 
 This repository contains the official PyTorch implementation of the following paper: 
 
+## Centralized Feature Pyramid for Object Detection  
+
 Yu Quan,  Dong Zhang, Liyan Zhang and Jinhui Tang  
-Computer Science and Engineering, Nanjing University of Science and Technology  
-Centralized Feature Pyramid for Object Detection  
+Computer Science and Engineering, Nanjing University of Science and Technology   
 https://arxiv.org/abs/2210.02093
 
 In this paper, we propose a Centralized Feature Pyramid (CFP) for object detection, which is based on a globally explicit centralized feature regulation. We first propose a spatial explicit visual center scheme, where a lightweight MLP is used to capture the globally long-range dependencies and a parallel learnable visual center mechanism is used to capture the local corner regions of the input images. Based on this, we then propose a globally centralized regulation for the commonly-used feature pyramid in a top-down fashion, where the explicit visual center information obtained from the deepest intra-layer feature is used to regulate frontal shallow features. Compared to the existing feature pyramids, CFP not only has the ability to capture the global long-range dependencies, but also efficiently obtain an all-round yet discriminative feature representation.
