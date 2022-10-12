@@ -52,9 +52,9 @@ If you find this work is useful for your research, please cite our paper using t
 [[supp](https://arxiv.org/abs/2210.02093)] [[arxiv](https://arxiv.org/abs/2210.02093)]:<br>
 
 
-      @article{quan2022centralized,<br> 
-      title={Centralized Feature Pyramid for Object Detection},<br>
-      author={Quan, Yu and Zhang, Dong and Zhang, Liyan and Tang, Jinhu},<br>
-      journal={arXiv preprint arXiv:2210.02093},<br>
+      @article{quan2022centralized,
+      title={Centralized Feature Pyramid for Object Detection},
+      author={Quan, Yu and Zhang, Dong and Zhang, Liyan and Tang, Jinhu},
+      journal={arXiv preprint arXiv:2210.02093},
       year={2022}}
 
