@@ -1,6 +1,6 @@
 # Centralized Feature Pyramid for Object Detection
 
-This repository contains the official PyTorch implementation of the following paper: 
+This repository contains the official PyTorch implementation of the following paper:
 
 #### Centralized Feature Pyramid for Object Detection  
 
