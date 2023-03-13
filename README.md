@@ -25,6 +25,11 @@ Visual feature pyramid has shown its superiority in both effectiveness and effic
  
 | Model | size | mAP(%) | weights |
 | :--- | :---: | :---: | ---: |
+| :--- | :Baseline:: | :YOLOX: | ---: |
+| CFP-s | 640 | 41.1 | [weight](https://pan.baidu.com/disk/main#/index?category=all&path=%2FCFP-main%2Fweights) | 
+| CFP-m | 640 | 46.4 | [weight](https://pan.baidu.com/disk/main#/index?category=all&path=%2FCFP-main%2Fweights) |
+| CFP-l | 640 | 49.4 | [weight](https://pan.baidu.com/disk/main#/index?category=all&path=%2FCFP-main%2Fweights) | 
+
 | CFP-s | 640 | 41.1 | [weight](https://pan.baidu.com/disk/main#/index?category=all&path=%2FCFP-main%2Fweights) | 
 | CFP-m | 640 | 46.4 | [weight](https://pan.baidu.com/disk/main#/index?category=all&path=%2FCFP-main%2Fweights) |
 | CFP-l | 640 | 49.4 | [weight](https://pan.baidu.com/disk/main#/index?category=all&path=%2FCFP-main%2Fweights) | 
