@@ -25,13 +25,12 @@ Visual feature pyramid has shown its superiority in both effectiveness and effic
  
 | Model | size | mAP(%) | weights |
 | :--- | :---: | :---: | ---: |
-| CFP-s | 640 | 41.1 | [weight](https://pan.baidu.com/disk/main#/index?category=all&path=%2FCFP-main%2Fweights) | 
-| CFP-m | 640 | 46.4 | [weight](https://pan.baidu.com/disk/main#/index?category=all&path=%2FCFP-main%2Fweights) |
-| CFP-l | 640 | 49.4 | [weight](https://pan.baidu.com/disk/main#/index?category=all&path=%2FCFP-main%2Fweights) | 
-| :--- | :---: | :---: | ---: |
-| CFP-s | 640 | 41.1 | [weight](https://pan.baidu.com/disk/main#/index?category=all&path=%2FCFP-main%2Fweights) | 
-| CFP-m | 640 | 46.4 | [weight](https://pan.baidu.com/disk/main#/index?category=all&path=%2FCFP-main%2Fweights) |
-| CFP-l | 640 | 49.4 | [weight](https://pan.baidu.com/disk/main#/index?category=all&path=%2FCFP-main%2Fweights) | 
+| CFP-s (YOLOX)| 640 | 41.10 | [weight](https://pan.baidu.com/disk/main#/index?category=all&path=%2FCFP-main%2Fweights) | 
+| CFP-m (YOLOX)| 640 | 46.40 | [weight](https://pan.baidu.com/disk/main#/index?category=all&path=%2FCFP-main%2Fweights) |
+| CFP-l (YOLOX)| 640 | 49.40 | [weight](https://pan.baidu.com/disk/main#/index?category=all&path=%2FCFP-main%2Fweights) | 
+| CFP-s (YOLOv5)| 640 | 36.00 | [weight](https://pan.baidu.com/disk/main#/index?category=all&path=%2FCFP-main%2Fweights) | 
+| CFP-m (YOLOv5)| 640 | 43.20 | [weight](https://pan.baidu.com/disk/main#/index?category=all&path=%2FCFP-main%2Fweights) |
+| CFP-l (YOLOv5)| 640 | 46.60 | [weight](https://pan.baidu.com/disk/main#/index?category=all&path=%2FCFP-main%2Fweights) | 
 
 ## Installation<br>
   ### Install CFP-main from source<br>
