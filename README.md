@@ -21,7 +21,7 @@ Visual feature pyramid has shown its superiority in both effectiveness and effic
 ![Qualitative results](https://github.com/QY1994-0919/CFPNet/blob/main/assets/results.png)<br>
 
 ## Model Weights<br>
- Here, we present weights of CFP with YOLOX as the baseline.<br>
+ Here, we present weights of CFP with YOLOX and YOLOv5 as the baseline.<br>
  
 | Model | size | mAP(%) | weights |
 | :--- | :---: | :---: | ---: |
