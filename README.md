@@ -33,28 +33,35 @@ We provide training weights of CFP with YOLOX and YOLOv5 as the baseline.<br>
 ## Installation<br>
 #### Install CFP-main from source<br>
 ```
-  	git clone git@github.com:QY1994-0919/CFP-main.git         
-    cd CFP-main    
-    pip3 install -v -e .  # or  python3 setup.py develop   
+git clone git@github.com:QY1994-0919/CFP-main.git 
+```        
+cd CFP-main    
+```
+pip3 install -v -e .  # or  python3 setup.py develop   
 ```
 
 #### Prepare COCO dataset<br>
 ```
-    cd CFP-main   
-    ln -s /path/to/your/COCO ./datasets/COCO   
+cd CFP-main   
+```
+ln -s /path/to/your/COCO ./datasets/COCO   
 ```
 
 ## Train: Reproduce our results on COCO by specifying -f:<br>
 ```
 python -m cfp.tools.train -f cfp-s -d 2 -b 16 --fp16 -o [--cache]
+```
 python -m cfp.tools.train -f cfp-m -d 2 -b 16 --fp16 -o [--cache]
+```
 python -m cfp.tools.train -f cfp-l -d 2 -b 16 --fp16 -o [--cache]
 ```        
 
 ## Evaluation: support batch testing for fast evaluation:<br>
 ```                           
 python -m cfp.tools.eval -n  cfp-s -c cfp_s.pth -b 16 -d 2 --conf 0.001 [--fp16] [--fuse]
+```
 python -m cfp.tools.eval -n  cfp-m -c cfp_s.pth -b 16 -d 2 --conf 0.001 [--fp16] [--fuse]
+```
 python -m cfp.tools.eval -n  cfp-l -c cfp_s.pth -b 16 -d 2 --conf 0.001 [--fp16] [--fuse]
 ```                        
 
