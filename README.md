@@ -44,7 +44,7 @@ cd CFP-main
 ln -s /path/to/your/COCO ./datasets/COCO   
 ```
 
-## Train: Reproduce our results on COCO by specifying -f:<br>
+## Train: Reproduce our results on COCO by:
 ```
 python -m cfp.tools.train -f cfp-s -d 2 -b 16 --fp16 -o [--cache]
 python -m cfp.tools.train -f cfp-m -d 2 -b 16 --fp16 -o [--cache]
