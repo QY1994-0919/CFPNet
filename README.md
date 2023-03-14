@@ -45,14 +45,14 @@ ln -s /path/to/your/COCO ./datasets/COCO
 ```
 
 ## Usage
-#### To train the model, please run:
+#### - To train the model, please run:
 ```
 python -m cfp.tools.train -f cfp-s -d 2 -b 16 --fp16 -o [--cache]
 python -m cfp.tools.train -f cfp-m -d 2 -b 16 --fp16 -o [--cache]
 python -m cfp.tools.train -f cfp-l -d 2 -b 16 --fp16 -o [--cache]
 ```        
 
-#### To test the model, please run:
+#### - To test the model, please run:
 ```                           
 python -m cfp.tools.eval -n  cfp-s -c cfp_s.pth -b 16 -d 2 --conf 0.001 [--fp16] [--fuse]
 python -m cfp.tools.eval -n  cfp-m -c cfp_s.pth -b 16 -d 2 --conf 0.001 [--fp16] [--fuse]
