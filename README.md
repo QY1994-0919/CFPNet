@@ -44,24 +44,25 @@ cd CFP-main
 ln -s /path/to/your/COCO ./datasets/COCO   
 ```
 
-## Train: Reproduce our results on COCO by:
+## Usage
+#### To train the model, please run:
 ```
 python -m cfp.tools.train -f cfp-s -d 2 -b 16 --fp16 -o [--cache]
 python -m cfp.tools.train -f cfp-m -d 2 -b 16 --fp16 -o [--cache]
 python -m cfp.tools.train -f cfp-l -d 2 -b 16 --fp16 -o [--cache]
 ```        
 
-## Evaluation: support batch testing for fast evaluation:<br>
+#### To test the model, please run:
 ```                           
 python -m cfp.tools.eval -n  cfp-s -c cfp_s.pth -b 16 -d 2 --conf 0.001 [--fp16] [--fuse]
 python -m cfp.tools.eval -n  cfp-m -c cfp_s.pth -b 16 -d 2 --conf 0.001 [--fp16] [--fuse]
 python -m cfp.tools.eval -n  cfp-l -c cfp_s.pth -b 16 -d 2 --conf 0.001 [--fp16] [--fuse]
 ```                        
 
-# Acknowledgement<br>
+## Acknowledgement<br>
  Thanks [YOLOv5](https://github.com/ultralytics/yolov5) and [YOLOX](https://arxiv.org/abs/2107.08430) teams for the wonderful open source project!
 
-# Bibtex
+## Bibtex
 If you find this work is useful for your research, please cite our paper:<br>
 ```
 @article{quan2022centralized,
