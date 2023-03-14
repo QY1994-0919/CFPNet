@@ -18,7 +18,7 @@ Visual feature pyramid has shown its superiority in both effectiveness and effic
 ## Qualitative results
 ![Qualitative results](https://github.com/QY1994-0919/CFPNet/blob/main/assets/results.png)<br>
 
-## Quantitative results and weights<br>
+## Quantitative results and training weights<br>
 We provide training weights of CFP with YOLOX and YOLOv5 as the baseline.<br>
  
 | Model | size | mAP(%) | weights |
@@ -31,40 +31,42 @@ We provide training weights of CFP with YOLOX and YOLOv5 as the baseline.<br>
 | CFP-l (YOLOv5)| 640 | 46.60 | [weight](https://pan.baidu.com/disk/main#/index?category=all&path=%2FCFP-main%2Fweights) | 
 
 ## Installation<br>
-  ### Install CFP-main from source<br>
-  
+#### Install CFP-main from source<br>
+```
   	git clone git@github.com:QY1994-0919/CFP-main.git         
     cd CFP-main    
     pip3 install -v -e .  # or  python3 setup.py develop   
-   
-  ### Prepare COCO dataset<br>
+```
 
+#### Prepare COCO dataset<br>
+```
     cd CFP-main   
     ln -s /path/to/your/COCO ./datasets/COCO   
-    
-## Train: Reproduce our results on COCO by specifying -f:<br>
+```
 
-     python -m cfp.tools.train -f cfp-s -d 2 -b 16 --fp16 -o [--cache]
-     python -m cfp.tools.train -f cfp-m -d 2 -b 16 --fp16 -o [--cache]
-     python -m cfp.tools.train -f cfp-l -d 2 -b 16 --fp16 -o [--cache]
-                                                                   
+## Train: Reproduce our results on COCO by specifying -f:<br>
+```
+python -m cfp.tools.train -f cfp-s -d 2 -b 16 --fp16 -o [--cache]
+python -m cfp.tools.train -f cfp-m -d 2 -b 16 --fp16 -o [--cache]
+python -m cfp.tools.train -f cfp-l -d 2 -b 16 --fp16 -o [--cache]
+```        
+
 ## Evaluation: support batch testing for fast evaluation:<br>
-                                  
-      python -m cfp.tools.eval -n  cfp-s -c cfp_s.pth -b 16 -d 2 --conf 0.001 [--fp16] [--fuse]
-      python -m cfp.tools.eval -n  cfp-m -c cfp_s.pth -b 16 -d 2 --conf 0.001 [--fp16] [--fuse]
-      python -m cfp.tools.eval -n  cfp-l -c cfp_s.pth -b 16 -d 2 --conf 0.001 [--fp16] [--fuse]
-                            
+```                           
+python -m cfp.tools.eval -n  cfp-s -c cfp_s.pth -b 16 -d 2 --conf 0.001 [--fp16] [--fuse]
+python -m cfp.tools.eval -n  cfp-m -c cfp_s.pth -b 16 -d 2 --conf 0.001 [--fp16] [--fuse]
+python -m cfp.tools.eval -n  cfp-l -c cfp_s.pth -b 16 -d 2 --conf 0.001 [--fp16] [--fuse]
+```                        
 
 # Acknowledgement<br>
  Thanks [YOLOv5](https://github.com/ultralytics/yolov5) and [YOLOX](https://arxiv.org/abs/2107.08430) teams for the wonderful open source project!
 
 # Bibtex
 If you find this work is useful for your research, please cite our paper:<br>
-
-
-      @article{quan2022centralized,
-      title={Centralized Feature Pyramid for Object Detection},
-      author={Quan, Yu and Zhang, Dong and Zhang, Liyan and Tang, Jinhu},
-      journal={arXiv preprint arXiv:2210.02093},
-      year={2022}}
-
+```
+@article{quan2022centralized,
+title={Centralized Feature Pyramid for Object Detection},
+author={Quan, Yu and Zhang, Dong and Zhang, Liyan and Tang, Jinhu},
+journal={arXiv},
+year={2022}}
+```
