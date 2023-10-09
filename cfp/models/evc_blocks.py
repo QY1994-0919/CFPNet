@@ -247,8 +247,8 @@ class LightMLPBlock(nn.Module):
     use_layer_scale=True, layer_scale_init_value=1e-5, drop_path=0., norm_layer=GroupNorm):  # act_layer=nn.GELU,
         super().__init__()
         self.dw = DWConv(in_channels, out_channels, ksize=1, stride=1, act="silu")
-        self.linear = nn.Linear(out_channels, out_channels)  # learnable position embedding
-        self.out_channels = out_channels
+        # self.linear = nn.Linear(out_channels, out_channels)  # learnable position embedding
+        # self.out_channels = out_channels
 
         self.norm1 = norm_layer(in_channels)
         self.norm2 = norm_layer(in_channels)
